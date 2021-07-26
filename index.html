@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Desafio 2</title>
+</head>
+<body>
+    
+        <h1>Cadastro de Produtos</h1>
+
+    <div class="card">
+        <div class="card2"></div>
+            <div id="formulario">
+                <form id="form">
+
+                    <p id="frase-inputs">Insira o nome do produto:</p>
+                    <input type="text" id="nome-prod" placeholder="Digite o produto: ">
+
+                    <p id="frase-inputs">Insira o preço:</p>
+                    <input type="text" id="preco-input" placeholder="Digite o preço: ">
+
+                    <p id="frase-inputs">Insira a quantidade:</p>
+                    <input type="number" id="quantidade-input" placeholder="Digite a quantidade: ">
+
+                    <p id="frase-inputs">Insira o código do produto:</p>
+                    <input type="text" id="cod-input" placeholder="Digite o código: ">
+
+                    <input type="submit" id="submit-input" value="Cadastrar">
+                </form>
+            </div>
+
+            <div id="remover">
+                <form id="form-remover">
+                    <input type="text" id="remover-id" placeholder="Digite a chave: ">
+                    <input type="submit" id="remover-input" value="Remover">
+                </form>
+            </div>
+        </div>
+
+        <div id='error'>
+            O localStorage está limpo!
+        </div>
+
+    </div>
+
+    <h1>Cadastro de Clientes</h1>
+
+    <div class="card">
+        <div class="card2"></div>
+            <div id="formulario">
+                <form id="form2">
+
+                    <p id="frase-inputs">Insira o nome do cliente:</p>
+                    <input type="text" id="nome-cliente" placeholder="Digite o nome: ">
+
+                    <p id="frase-inputs">Insira o e-mail do cliente:</p>
+                    <input type="email" id="email-input" placeholder="Digite o e-mail: ">
+
+                    <p id="frase-inputs">Insira o nº do celular do cliente:</p>
+                    <input type="text" id="cel-input" placeholder="Digite o nº do celular: ">
+
+                    <p id="frase-inputs">Insira o nome da cidade:</p>
+                    <input type="text" id="cidade-input" placeholder="Digite o nome da cidade: ">
+
+                    <input type="submit" id="submit-input" value="Cadastrar">
+
+                </form>
+            </div>
+
+            <div id="remover">
+                <form id="form-remover2">
+                    <input type="text" id="remover-id2" placeholder="Digite a chave: ">
+                    <input type="submit" id="remover-input" value="Remover">
+                </form>
+            </div>
+        </div>
+
+        <div id='error2'>
+            O localStorage está limpo!
+        </div>
+
+    </div>
+
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
